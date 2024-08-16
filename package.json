@@ -1,5 +1,5 @@
 {
-	"name": "next-pw-test-docker",
+	"name": "remote-playwright-server",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
