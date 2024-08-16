@@ -1,0 +1,25 @@
+# services:
+#   pw-server:
+#     build:
+#       dockerfile: ./Dockerfile
+#       context: .
+#       target: pw-server
+#     ports:
+#       - 1010:1010
+#       - 1011:1011
+#       - 1012:1012
+#     extra_hosts:
+#       - "host.docker.internal:host-gateway"
+
+services:
+  pw-server:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+      target: pw-server
+    ports:
+      - 1010:1010
+      - 1011:1011
+      - 1012:1012
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
